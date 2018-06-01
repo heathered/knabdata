@@ -1,0 +1,22 @@
+<%= form_for :horse do |h| %>
+
+  <p>
+    <%= h.label :name %><br>
+    <%= h.text_field :name %>
+  </p>
+	
+  <p>
+    <%= h.label :sire %><br>
+    <%= h.text_field :sire %>
+  </p>
+	
+  <p>
+    <%= h.label :dam %><br>
+    <%= h.text_field :dam %>
+  </p>
+	
+  <p>
+    <%= h.submit %>
+  </p>
+	
+<% end %>

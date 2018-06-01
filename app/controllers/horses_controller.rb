@@ -1,5 +1,9 @@
 class HorsesController < ApplicationController
   
+  def index
+    
+  end
+  
   def new
   end
   

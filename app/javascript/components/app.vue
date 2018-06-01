@@ -1,5 +1,8 @@
 // app/javascript/components/app.vue
 
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+
 <template>
   <div id='app'>
     <p>{{ message }}</p>
@@ -10,7 +13,7 @@
   export default {
     data: function () {
       return {
-        message: "Welcome to Knabstrupper Database!"
+        // message: "Welcome to Knabstrupper Database!"
       }
     }
   }
